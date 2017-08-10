@@ -1,0 +1,6 @@
+<h3> Ici le cocktail sélectionné </h3>
+
+<%= @cocktail.name %>
+
+<%= link_to "Retour à la liste", cocktails_path %>
+<%= link_to "Modifier la recette de ce cocktail", new_cocktail_dose_path(@cocktail.id) %>
